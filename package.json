@@ -1,0 +1,37 @@
+{
+  "name": "wdio",
+  "version": "1.0.0",
+  "description": "Automated testing using Webdriver.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kseniya2/Project1.git"
+  },
+  "keywords": [
+    "first",
+    "project1"
+  ],
+  "author": "KD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kseniya2/Project1/issues"
+  },
+  "homepage": "https://github.com/kseniya2/Project1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/register": "^7.10.3",
+    "@wdio/cli": "^6.1.22",
+    "@wdio/local-runner": "^6.1.22",
+    "@wdio/mocha-framework": "^6.1.19",
+    "@wdio/spec-reporter": "^6.1.14",
+    "@wdio/sync": "^6.1.14",
+    "chromedriver": "^83.0.0",
+    "prettier": "^2.0.5",
+    "wdio-chromedriver-service": "^6.0.3"
+  }
+}
